@@ -1,0 +1,60 @@
+body{
+    background-image: url("stud mgmt system img.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    font-size: 50px;
+    width: auto;
+    height: 60px;
+    text-align: center;
+}
+.navbar{
+    line-height: 2;
+    text-align: center;
+    height: 30px;
+}
+a{
+    width: auto;
+    padding: 25px;
+    text-decoration: none;
+}
+.box{
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    height: auto;;
+    border-radius: 20px;
+    padding: 5px;
+}
+.otp-input{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+button{
+    height: 40px;
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 100px;
+}
+button:hover {
+    background-color: yellowgreen;
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
